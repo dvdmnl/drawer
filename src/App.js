@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react'
 import './App.css';
+import InputToJSON from "./components/InputToJSON/InputToJSON";
+import FormGenerator from './components/FormGenerator/FormGenerator'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [formData, setFormData] = useState(null)
+    useEffect(() => {
+        console.log(formData)
+    },[formData])
+    return (
+        <div className="App">
+            <InputToJSON setFormData={setFormData}/>
+            <FormGenerator formSpec={formData}/>
+        </div>
+    );
 }
 
 export default App;
