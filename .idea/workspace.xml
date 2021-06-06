@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd01b684-51f9-4f9a-a626-cfa25748e3a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/FormGenerator/FormGenerator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FormGenerator/FormGeneratorFuncs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FormGenerator/FormLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputToJSON/InputToJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InputToJSON/InputToJSONfuncs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormGenerator/FormGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormGenerator/FormGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormGenerator/FormGeneratorFuncs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormGenerator/FormGeneratorFuncs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputToJSON/InputToJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputToJSON/InputToJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InputToJSON/InputToJSONfuncs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputToJSON/InputToJSONfuncs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,8 @@
       <workItem from="1622631817733" duration="10486000" />
       <workItem from="1622716624718" duration="439000" />
       <workItem from="1622717278649" duration="122000" />
+      <workItem from="1622965127539" duration="1183000" />
+      <workItem from="1622993767481" duration="6943000" />
     </task>
     <servers />
   </component>

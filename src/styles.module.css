@@ -1,0 +1,10 @@
+.row {
+    display: flex;
+    border: 1px solid #282c34;
+}
+
+.column {
+    padding: 10px;
+    border:1px solid #61dafb;
+    flex: 1;
+}
