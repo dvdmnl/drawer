@@ -2,15 +2,24 @@ import React, {useEffect} from 'react'
 import { getLayout } from './FormGeneratorFuncs'
 import styles from '../../styles.module.css'
 
-const TextInput = () =>{
+const TextInput = ({label, option, type}) => {
     return(
-        <div>TextInput</div>
+        <div><label>{label}</label><input placeholder={option[0]}/></div>
     )
 }
 
-const Select = () =>{
+const Select = ({label, option, type}) =>{
     return(
-        <div>Select</div>
+        <div>
+            <label>{label}</label>
+            <select>
+                {option.map((item, index) => {
+                    return(
+                        <option key={index}>{item}</option>
+                    )
+                })}
+            </select>
+        </div>
     )
 }
 
@@ -24,7 +33,6 @@ const renderComp = (componentToRender) => {
             return <div/>
     }
 }
-
 
 const Row = ({columns,rowNumber, formSpec}) => {
     const arrColumns = [...Array(columns)]
